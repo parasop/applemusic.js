@@ -1,0 +1,25 @@
+{
+  "name": "applemusic.js",
+  "version": "1.0.0",
+  "description": "applemusic.js is a powerful Node.js  module that allows you to interact with the Apple Music API  very easily",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parasop/applemusic.js.git"
+  },
+  "author": "PARASDOCS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parasop/applemusic.js/issues"
+  },
+  "homepage": "https://github.com/parasop/applemusic.js#readme",
+  "dependencies": {
+    "undici": "^5.9.1"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
+}
