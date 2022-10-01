@@ -9,6 +9,7 @@ class AppleMusic {
       options.searchMarket || "IN"
     }`;
     this.token = null;
+    this.fetch = fetch
     this.getToken();
   }
 
@@ -41,7 +42,7 @@ class AppleMusic {
   async getData(param) {
     if (!this.token) await this.getToken();
 
-    let req = await fetch(`${this.url}${param}`, {
+    let req = await this.fetch(`${this.url}${param}`, {
       headers: {
         Authorization: `${this.token}`,
         origin: "https://music.apple.com",
